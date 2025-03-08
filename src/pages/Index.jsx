@@ -75,7 +75,7 @@ const Index = () => {
                                         Neste Dia das Mulheres, quero te celebrar como faço todos os dias quando te observo em silêncio. Seu olhar me desarma completamente.
                                     </p>
                                     <p className="leading-relaxed text-sm md:text-base mb-2">
-                                        Amo seu jeito intenso e como você se entrega por inteiro às coisas que importam. Sua risada, que eu tanto amo ouvir e sempre me faz sorrir junto, ilumina meus dias. Você transforma qualquer lugar só de estar ali.
+                                        Amo seu jeito intenso e como você se entrega por inteira às coisas que importam. Sua risada, que eu tanto amo ouvir e sempre me faz sorrir junto, ilumina meus dias. Você transforma qualquer lugar só de estar ali.
                                     </p>
                                     <p className="leading-relaxed text-sm md:text-base mb-2">
                                         Sua força não precisa ser anunciada, todo mundo sente. Mesmo com medo, você segue em frente com uma dignidade única. Ver você feliz, com os olhos brilhando, é tudo pra mim.
