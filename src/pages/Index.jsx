@@ -52,16 +52,14 @@ const Index = () => {
                     <p className="montserrat text-base md:text-lg opacity-70 max-w-2xl mx-auto leading-relaxed">
                         Para a mulher que transforma momentos comuns em memórias inesquecíveis.
                     </p>
-                    <Dialog onOpenChange={(open => {
-                        if (open) return false
-                    })}>
+                    <Dialog>
                         <DialogTrigger asChild>
                             <Button className="bg-rosa-escuro hover:bg-rosa text-white mt-8 md:mt-12 px-4 py-3 md:p-6 animate-bounce text-sm md:text-base">
                                 <Mail size={16} className="mr-1 md:mr-2" />
                                 Abrir Carta
                             </Button>
                         </DialogTrigger>
-                        <DialogContent className="max-w-[92%] sm:max-w-[80%] md:max-w-xl bg-white remove-close-icon px-6 md:px-10 py-4 md:py-5 max-h-[90vh] overflow-auto">
+                        <DialogContent className="max-w-[92%] sm:max-w-[80%] md:max-w-xl bg-white remove-close-icon px-6 md:px-10 py-4 md:py-8 max-h-[90vh] overflow-auto rounded-xl border border-rosa/30">
                             <DialogHeader>
                                 <DialogTitle className="playfair text-left text-xl md:text-2xl font-bold text-rosa-escuro">
                                     Para a minha Anjinha!
@@ -127,7 +125,7 @@ const Index = () => {
                                             className="w-full h-[300px] md:h-[450px] lg:h-[600px] object-cover"
                                         />
                                         <div className="bg-white/90 backdrop-blur-sm p-4 md:p-6 w-full">
-                                            <p className="playfair text-xs md:text-sm lg:text-xl font-bold text-rosa-escuro">
+                                            <p className="playfair text-md md:text-sm lg:text-xl font-bold text-rosa-escuro">
                                                 {item.descricao}
                                             </p>
                                         </div>

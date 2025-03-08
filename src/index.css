@@ -121,7 +121,7 @@
   opacity: 1 !important;
 }
 
-[data-state] > button[aria-label="Close"] {
+[data-radix-popper-content-wrapper] [role="dialog"] button[type="button"] {
   display: none !important;
 }
 
@@ -147,4 +147,13 @@
   .swiper-button-prev {
     display: none !important;
   }
+}
+
+.DialogContent button[aria-label="Close"],
+[role="dialog"] [data-state] button[aria-label="Close"],
+[role="dialog"] > button[type="button"]:first-of-type {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
 }
